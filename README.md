@@ -32,22 +32,27 @@ npm install
 npm run watch
 ```
 
-custom install incase of failed yarn or npm install:
+custom install in case of failed yarn or npm install:
 for addition-rnn example, do this
+
+```sh
 npm install @tensorflow/tfjs
 npm install vega-embed
-then
+#then
 npm run build
+```
 to test it, add 'dist' to the code path, for example -> http://host-name/path/addition-rnn/dist
 
 for lstm-text-generation, do this
+
+```sh
 npm install @tensorflow/tfjs
 npm install vega-embed
 npm install cross-env
 npm install parcel-bundler
-
-then 
+#then 
 npm run build
+```
 to test it, add 'dist' to the code path, for example -> http://host-name/path/lstm-text-generation
 
 ### Details
